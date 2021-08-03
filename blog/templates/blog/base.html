@@ -33,7 +33,7 @@
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" id="title1" href="{% url 'blog-home' %}"
+          <a class="navbar-brand mr-4" href="{% url 'blog-home' %}" id="title1"
             >Django Blog</a
           >
           <button
@@ -57,6 +57,9 @@
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
               {% if user.is_authenticated %}
+              <a class="nav-item nav-link" href="{% url 'post-create' %}"
+                >New Post</a
+              >
               <a class="nav-item nav-link" href="{% url 'profile' %}"
                 >Profile</a
               >

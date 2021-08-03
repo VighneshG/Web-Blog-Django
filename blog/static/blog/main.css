@@ -3,7 +3,7 @@
 body {
   /* background: linear-gradient(to right, pink, lightgreen); */
   color: #333333;
-  font-family: cinzel;
+  font-family: roboto;
   margin-top: 5rem;
   background-color: #e2d0fd;
   background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23af81f7' fill-opacity='0.3'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -24,11 +24,15 @@ ul {
 
 .bg-steel {
   /* background-color: #49b3ff; */
-  background-color: #d0b4f9;
+  background-color: #a56afdd5;
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #4336f8;
+  color: #395f5fcb;
+  background: #ebfdda;
+  border-radius: 10px;
+  margin: 5px;
+  font-family: cinzel;
   font-size: 1.5rem;
 }
 
@@ -105,8 +109,13 @@ a.article-title:hover {
 }
 
 #title1 {
-  color: #4336f8;
-  font-size: 2.5rem;
+  /* color: #4336f8; */
+  background: cyan;
+  font-family: cinzel;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(66, 163, 126);
+  font-size: 2rem;
 }
 
 .list-group-item {
