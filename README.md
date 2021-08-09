@@ -12,6 +12,12 @@ Key Features:
 6) Posts are visible to all users
 7) Pagination helps in showing 5 posts per page at maximum.
 
-# Home Page View
+## 1. Home Page View
 
 https://user-images.githubusercontent.com/86284510/128743022-391b22e8-f2b1-4ef2-bba1-cb5033547294.mov
+
+## 2. User Register, Login and Post
+
+
+https://user-images.githubusercontent.com/86284510/128745843-a9a5c21e-0e20-4335-b41b-be1106b7bf16.mp4
+
