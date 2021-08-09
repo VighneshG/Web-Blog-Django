@@ -3,13 +3,9 @@
 <div class="logout-banner">
   <h2>You have been logged out</h2>
   <small class="text-muted">
-    <button
-      class="btn btn-outline-info"
-      href="{% url 'login' %}"
-      id="login-again"
-    >
-      Log In Again
-    </button>
+    <a class="btn btn-outline-info" type="submit" href="{% url 'login' %}">
+      Log In Again!
+    </a>
   </small>
 </div>
 {% endblock content %}
