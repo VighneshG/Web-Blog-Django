@@ -9,3 +9,4 @@ Key Features:
 4) Registered users can post any Blog Post.
 5) Users can Create, Update or Delete their Posts
 6) Posts are visible to all users
+7) Pagination helps in showing 5 posts per page at maximum.
